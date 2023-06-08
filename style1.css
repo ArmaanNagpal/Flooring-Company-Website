@@ -1,0 +1,257 @@
+body{
+	background-color: black; color: white;
+}
+/*Styling for homepage*/
+
+h1{
+	color: blue;
+	font-variant: small-caps;
+}
+.tabs{
+	font-size: larger;
+	text-align: center;
+	background-color: blue;
+	float: left;
+	width: 200px;
+	color: white;
+	line-height: 35px;
+	margin: 6px;
+/*	margin-top: 100px;*/
+	margin-right: 5px;
+	padding: 2px;
+	border-radius: 5px;
+	border: 2px solid black;
+}
+a:link, a:visited {
+  color: white;
+ }
+ #i1{
+/*	border: 2px solid white;*/
+/*	height: 500px;*/
+	text-align: justify;
+	margin: 5px;
+	line-height: 25px;
+	font-size: larger;
+}
+.i3{
+	float: left;
+	width: 600px;
+	color: black;
+	margin-left: 10px;
+	text-align: justify;
+	font-size: larger;
+}
+#i3{
+	background-color: white;
+	height: 300px;
+}
+#img1{
+	width: 290px;
+	height: 240px;
+	margin-left: 250px;
+	margin-top: 30px;
+	border-bottom-left-radius: 250px;
+	border-bottom-right-radius: 250px;
+	border-top-left-radius: 250px;
+ 	border: 2px blue solid; 
+ 	box-shadow: -10px 15px 5px ;
+}
+.i4{
+	border: 2px solid white;
+	margin: 35px;
+	box-shadow: -10px 15px 3px;
+	width: 250px;
+	height: 250px;
+}
+#i4a{
+	height: 450px;
+}
+.i5{
+	float: left;
+	width: 662px;
+	height: 600px;
+}
+#i5{
+	border-color: lightgrey;
+	background-color: lightgrey;
+	margin: 25px;
+	height: 45px;
+	width: 500px;
+	margin-left: 45px;
+}
+.button{
+	background-color: blue;
+	color: white;
+	border-radius: 5px;
+	font-size: larger;
+	margin: 20px;
+	height: 35px;
+	margin-left: 45px;
+	border-color: blue;
+}
+.footer{
+	clear: left;
+	height: 200px;
+	background-color: darkslategrey;
+	color: white;
+ 	text-align: center;
+ 	padding: 50px;
+ 	padding-top: 30px;
+}
+table{
+	margin-top: 0px;
+/*	border:2px solid red;*/
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.footer a{
+	display: block;
+	margin-top: 5px;
+	text-decoration: none;
+}
+.icon{
+	float: left;
+	margin-left: 30px;
+}
+/*Styling for gallery*/
+
+.maindiv{
+	height: 300px;
+}
+.subdiv{
+	float: left;
+	width: 600px;
+	margin-left: 10px;
+	text-align: justify;
+	font-size: larger;
+}
+.white{
+	background-color: white;
+	color: black;
+}
+.white .subdiv{
+	float: right;
+	padding: 10px;
+	margin-right: 10px;
+}
+.image{
+	width: 290px;
+	height: 240px;
+	margin-left: 250px;
+	margin-top: 30px;
+	border-bottom-left-radius: 250px;
+	border-bottom-right-radius: 250px;
+	border-top-left-radius: 250px;
+ 	box-shadow: -10px 15px 5px ;
+
+}
+.white .image{
+	margin-left: 100px;
+	width: 290px;
+	height: 240px;
+	margin-right: 250px;
+	margin-top: 30px;
+	border-bottom-left-radius: 250px;
+	border-bottom-right-radius: 250px;
+	border-top-left-radius: 250px;
+ 	box-shadow: -10px 15px 5px ;
+}
+
+#wooden
+
+#wood{
+	height: 450px;
+}
+.imgwood{
+	width: 250px;
+	height: 210px;
+	margin: 35px;
+	border-bottom-left-radius: 250px;
+	border-bottom-right-radius: 250px;
+	border-top-left-radius: 250px;
+ 	box-shadow: -10px 15px 5px ;
+}
+#woodpara{
+	margin-left: 10px;
+	text-align: justify;
+	font-size: larger;
+}
+
+#vinyl
+
+#vinyl{
+	height: 450px;
+}
+.imgvinyl{
+	width: 250px;
+	height: 210px;
+	margin: 35px;
+	border-bottom-left-radius: 250px;
+	border-bottom-right-radius: 250px;
+	border-top-left-radius: 250px;
+ 	box-shadow: -10px 15px 5px ;
+}
+#vinylpara{
+	margin-left: 10px;
+	text-align: justify;
+	font-size: larger;
+}
+
+#window
+
+#window{
+	height: 450px;
+}
+.imgwindow{
+	width: 250px;
+	height: 210px;
+	margin: 35px;
+	border-bottom-left-radius: 250px;
+	border-bottom-right-radius: 250px;
+	border-top-left-radius: 250px;
+ 	box-shadow: -10px 15px 5px ;
+}
+#windowpara{
+	margin-left: 10px;
+	text-align: justify;
+	font-size: larger;
+}
+
+#blog
+
+#blog{
+	height: 900px;
+}
+#blogpara{
+	margin-left: 10px;
+	text-align: justify;
+	font-size: larger;
+}
+.blogsubdiv{
+	text-align: center;
+	border: 2px solid white;
+	float: left;
+	height: 680px;
+	width: 390px;
+	margin: 25px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+.blogsubdiv:hover{
+	background-color: rgba(255, 255, 255, 1.0);
+	box-shadow: 5px 5px 3px;
+	color: black;
+}
+.blogimg{
+	border: 2px solid blue;
+	margin: 35px;
+	box-shadow: -10px 15px 3px;
+	width: 200px;
+	height: 200px;
+}
+.blogsubpara{
+	padding: 10px;
+	text-align: justify;
+	font-size: larger;
+	color: black;
+}
